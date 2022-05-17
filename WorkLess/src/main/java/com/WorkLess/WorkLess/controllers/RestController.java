@@ -36,7 +36,7 @@ public class RestController {
     public void addTest(){
         scheduleRepository.deleteAll();
         String[] paths = {
-                "/Users/aleksandrbraznikov/Desktop/bPI_181.doc"
+                "/Users/aleksandrbraznikov/Desktop/Расписание/bPI_181.doc"
         };
         for (String path : paths) {
             ParseDocFile parseDocFile = new ParseDocFile(path);
