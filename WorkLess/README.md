@@ -4,15 +4,15 @@
 Как администратор я хочу добавлять и удалять файлы с расписанием.  
 Как пользователь я хочу обновлять информацию о расписание.
 ## Сценарий 1
-![Сценарий 1](https://user-images.githubusercontent.com/82893287/168480213-188dcdb6-afa6-4c4b-9db3-68082368da7b.jpg)
+![Сценарий 1](https://user-images.githubusercontent.com/82893287/168851217-658edeb9-1c0d-4d4e-9f89-25f676335fc8.jpg)
 ## Сценарий 2 
-![Сценарий 2](https://user-images.githubusercontent.com/82893287/168480233-d37c69fc-7ebe-4151-8963-abbba9f475d6.jpg)
+![Сценарий 2](https://user-images.githubusercontent.com/82893287/168849156-a26f68c0-6b9a-4ad9-afca-b6c3e179cf2c.jpg)
 ## Модель данных
 ![модель данных](https://user-images.githubusercontent.com/82893287/168480265-237ff1ac-6829-4aac-bac0-20e9bf24d29a.jpg)
 ## Диаграмма размещения
 ![Размещение](https://user-images.githubusercontent.com/82893287/168480289-77f2f17b-8e6c-492a-8626-fddcca33ecb9.jpg)
 ## Зависимости 
 ## API Сервисы
-/api/schedule/add - добавление информации на сервер  
-/api/schedule/{id} - удаление информации с сервера  
-/api/schedule - вывод информации 
+/api/schedule/add - обноввление информации на сервере  
+/api/schedule - вывод информации   
+/api/test - запрос на обновление информации
